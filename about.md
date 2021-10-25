@@ -1,18 +1,17 @@
 ---
-title: Colophon
+title: Short about me.
 permalink: /about/
 layout: page
-excerpt: Hello peeps, I'm student of computer science from Banyuwangi, living in Jogjakarta. This blog for documentation about my programming journey, running on jekyll, hosting on netlify and using my own simple theme.
 comments: false
 ---
 
-He's a student from Banyuwangi, living in Jogjakarta. the blog for documentation about his programming 🎒 journey, running on jekyll, hosting on [now.sh](http://now.sh) and using his own theme, he name it <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">klisé</a>, he also loves to learning web technology; but he often forgot, that a reason why him doing the writing.
+# Computer Science Student
 
-If you have a question about him or else, just send a letter to him.
+Hi I am Gabriel Igliozzi (gabe for short), I am a software engineer, really interested in Compilers and low-level systems, my
+projects are hosted on [github](https://github.com/gabeiglio) and if for some reason you want to contact me, you can
+do it through [twitter](https://github.com/gabeiglio).
 
-You can [report](http://github.com/piharpi/jekyll-klise/issues/new) if there is an broken link(s) or somethings else.
-
-**may u needs ✨**
+## Other ways to contact me:
 
 - {{ site.author.email }}
 - github.com/{{ site.author.github }}
