@@ -41,8 +41,8 @@ allocations.
 
 ## The Solution
 
-The solution surpeisingly is quite simple, we need to create an object that mimics some of the properties that a dynamic
-array has, we need to keep track of the **capacity** (how many items can it holds until it fills up), the **count**
+The solution surprisingly is quite simple, we need to create an object that mimics some of the properties that a dynamic
+array has, we need to keep track of the **capacity** (how many items can it hold until it fills up), the **count**
 (currently in use slots in the array) and lastly the actual **array** which will be a pointer to the first item of the
 array.
 
@@ -62,7 +62,7 @@ void init_array(Array* a) {
     a->array = malloc(sizeof(int) * a->capacity); //allocate sufficient memory to hold 8 (capacity) integers
 }
 ```
-Now lets talk about that weird function **malloc** (memory allocation), it allocates bytes of unitialized memory, and
+Let's talk about that weird function **malloc** (memory allocation), it allocates bytes of unitialized memory, and
 returns a pointer if succesfull, but we will talk about this later in the post.
 
 Great! now our array needs a function in order to add items to it.
@@ -78,8 +78,8 @@ void add_array(Array* a, int item) {
 }
 ```
 Let's explain what this functions does. In order to add an item to the array, first we have to check if the array is
-full, basically if the count plus the one item that we are tryng to add is less than the capacity, if it's less, then no
-problem we just assign it to the current index and augment the count to keep track of how many slots we are currently
+full, basically if the count plus the one item that we are trying to add is less than the capacity, then no
+problem we just assign it to the current index and increment the count to keep track of how many slots we are currently
 taking.
 
 But, if the count plus the new item is more than the capacity, we do two things first, we double the capacity, and
