@@ -182,6 +182,9 @@ about overflows.
 
 ### Full Code Listing
 ```c
+#include <stdio.h>
+#include <stdlib.h>
+
 typedef struct {
     size_t capacity; // how much can currently hold
     size_t count;    // how much is currently holding
