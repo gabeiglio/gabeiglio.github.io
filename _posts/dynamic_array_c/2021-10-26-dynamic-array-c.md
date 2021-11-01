@@ -178,7 +178,7 @@ void add_array(Array* a, int item) {
 ## Conclusion
 
 So with all of this now you are ready to allocate as many items as you want in the array at runtime without worrying
-about overflows.
+about the size of our array and concentrate more on what we are actually trying to code.
 
 ### Full Code Listing
 ```c
