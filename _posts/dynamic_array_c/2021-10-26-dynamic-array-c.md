@@ -129,7 +129,7 @@ int main(int argc, char* argv[]) {
 
 ## Let's fix some potential bugs!
 
-We have to functions malloc and realloc, that returns a pointer to a memory address, and we faithfully assign it to our
+We have two functions malloc and realloc, that returns a pointer to a memory address, and we faithfully assign it to our
 array pointer trusting that we are getting the actual pointer instead of a null pointer since the program could not find
 sufficient space to fill our needs.
 
