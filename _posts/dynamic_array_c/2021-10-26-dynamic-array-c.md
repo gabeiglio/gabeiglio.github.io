@@ -248,7 +248,7 @@ int main(int argc, char* argv[]) {
 
     // you can access the values at a given index like this
     printf("%i", a.array[0]); // output: 1
-    printf("%i", a.array[8]); // output: 8
+    printf("%i", a.array[8]); // output: 9
 
     // free the array when we are done using it
     free_array(&a);
