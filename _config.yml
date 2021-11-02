@@ -1,6 +1,6 @@
 # Site settings
 title: Gabriel Igliozzi # site title
-description: >- # site description
+description: >- Software Engineering | Math # site description
 lang: en-US # default lang
 timezone: Asia/Jakarta # set your timezone
 image:  assets/img/profile_pic.jpeg # This image used for Open Graph more info https://ogp.me/
@@ -10,7 +10,7 @@ mode: light # default theme "dark" | "light"
 # Profile settings
 author:
   name: Gabriel Igliozzi # author name
-  bio: >- # tell to the world
+  bio: Computer Science Student >- # tell to the world
   username: gabeiglio # general username
   github: gabeiglio # github username
   twitter: gabeiglio # twitter username
