@@ -70,7 +70,7 @@ Great! now our array needs a function in order to add items to it.
 void add_array(Array* a, int item) {
     if (a->capacity < a->count + 1) {
         a->capacity *= 2;
-        a-array = realloc(a->array, sizeof(int) * a->capacity);
+        a->array = realloc(a->array, sizeof(int) * a->capacity);
     }
 
     a->array[a->count] = item;
