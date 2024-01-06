@@ -5,12 +5,12 @@ lang: en-US # default lang
 timezone: Asia/Jakarta # set your timezone
 image:  assets/img/profile_pic.jpeg # This image used for Open Graph more info https://ogp.me/
 repo: https://github.com/gabeiglio # site repo [optional]
-mode: light # default theme "dark" | "light"
+mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
   name: Gabriel Igliozzi # author name
-  bio: Computer Science Student # tell to the world
+  bio: bad grammar, bad rationale, good intentions # tell to the world
   username: gabeiglio # general username
   github: gabeiglio # github username
   twitter: gabeiglio # twitter username
@@ -55,7 +55,7 @@ jekyll_compose:
     description:
 
 # Homepage limit posts
-number_of_posts: 5
+number_of_posts: 10
 
 # Build settings
 # theme: klise
