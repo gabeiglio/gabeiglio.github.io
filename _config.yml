@@ -10,7 +10,7 @@ mode: dark # default theme "dark" | "light"
 # Profile settings
 author:
   name: Gabriel Igliozzi # author name
-  bio: bad grammar, bad rationale, good intentions # tell to the world
+  bio: Engineer. I like to think about stuff # tell to the world
   username: gabeiglio # general username
   github: gabeiglio # github username
   twitter: gabeiglio # twitter username

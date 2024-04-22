@@ -1,9 +1,5 @@
-- title: home
+- title: blog
   url: /
-  external: false
-
-- title: archive
-  url: /archive/
   external: false
 
 - title: about
